@@ -52,7 +52,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
 streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop() 
+#streamlit.stop() 
   
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
